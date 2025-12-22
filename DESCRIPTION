@@ -1,17 +1,22 @@
-Package: Bio215G2
-Type: Package
-Title: What the Package Does (Title Case)
+Package: Bio215G25
+Title: Pancreatic Cancer Risk Prediction Model
 Version: 0.1.0
-Authors@R: c(
-    person(
-      "Jane", "Doe",
-      email = "jane@example.com",
-      role = c("aut", "cre")
-    )
-  )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Authors@R: 
+    c(  
+    person("Yichen", "Tang", email = "Yichen.Tang23@student.xjtlu.edu.cn", role = c("aut", "cre")),  
+    person("Yuhui", "Dong", email = "Yuhui.Dong23@student.xjtlu.edu.cn", role = c("aut")),  
+    person("Yinuo", "Feng", email = "Yinuo.Feng@student.xjtlu.edu.cn", role = c("aut"))) 
+Description:"The comprehensive R package for predicting the risk of pancreatic cancer uses machine learning techniques. This package provides the following functions Data preprocessing, model loading, and key-based risk prediction biomarkers include LYVE1, REG1B, and TFF1. It simultaneously offers the ability to predict individual patients as well as batch prediction with detailed probability risk assessment, and at the same time The sensitive threshold has been modified from 0.5 to 0.249"
+License: MIT
 Encoding: UTF-8
-LazyData: true
+Imports:   
+    caret,  
+    dplyr,  
+    stats
+Depends: 
+  R (>= 4.0.0)
+Suggests:  
+    knitr,  
+    rmarkdown,  
+    testthat
 RoxygenNote: 7.3.3
