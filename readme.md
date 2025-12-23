@@ -68,7 +68,6 @@ Improve predictive performance
 
 MIT License
 
-Copyright (c) [Year] [Your Team Name]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
