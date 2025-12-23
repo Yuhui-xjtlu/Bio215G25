@@ -13,6 +13,26 @@
 #'
 #' @return A preprocessed data frame with additional normalized features.
 #'
+#' @examples
+#' # Create a sample dataset
+#' sample_data <- data.frame(
+#'   age = c(65, 70, 55),
+#'   sex = c("M", "F", "M"),
+#'   creatinine = c(0.8, 1.2, 0.9),
+#'   LYVE1 = c(2.1, 3.4, 2.8),
+#'   REG1B = c(5.6, 7.8, 6.2),
+#'   TFF1 = c(1.2, 1.5, 1.3)
+#' )
+#'
+#' # Preprocess the data with default settings
+#' preprocessed_data <- preprocess_pancreatic_data(sample_data)
+#'
+#' # Preprocess without normalization
+#' preprocessed_data_no_norm <- preprocess_pancreatic_data(
+#'   sample_data,
+#'   normalize = FALSE
+#' )
+#'
 #' @export
 preprocess_pancreatic_data <- function(data, normalize = TRUE, fill_missing = TRUE) {
   # Check for required columns
