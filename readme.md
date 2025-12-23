@@ -89,7 +89,7 @@ SOFTWARE.
 
 ## Project URLs
 Shiny App: https://yinuofeng.shinyapps.io/BIO215_G25_shinyapp/
-GitHub Repository: 
+GitHub Repository: https://github.com/Yuhui-xjtlu/Bio215G25
 
 ![fg 1](fig1.png)
 
